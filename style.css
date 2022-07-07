@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'murf-icon-font';
+  src:  url('fonts/murf-icon-font.eot?knv9ys');
+  src:  url('fonts/murf-icon-font.eot?knv9ys#iefix') format('embedded-opentype'),
+    url('fonts/murf-icon-font.ttf?knv9ys') format('truetype'),
+    url('fonts/murf-icon-font.woff?knv9ys') format('woff'),
+    url('fonts/murf-icon-font.svg?knv9ys#murf-icon-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="mf-"], [class*=" mf-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'murf-icon-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mf-render:before {
+  content: "\e900";
+  color: #3a4358;
+}
+.mf-play:before {
+  content: "\e901";
+  color: #3a4358;
+}
+.mf-music-voice:before {
+  content: "\e902";
+  color: #3a4358;
+}
+.mf-pronunciation:before {
+  content: "\e903";
+  color: #3a4358;
+}
+.mf-ai-changer:before {
+  content: "\e904";
+  color: #3a4358;
+}
