@@ -1,0 +1,60 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2ngkm7');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2ngkm7#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?2ngkm7') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?2ngkm7') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?2ngkm7##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="mf-"], [class*=" mf-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mf-pronunciation {
+  &:before {
+    content: $mf-pronunciation;     
+    color: #3a4358;
+  }
+}
+.mf-render {
+  &:before {
+    content: $mf-render;     
+    color: #3a4358;
+  }
+}
+.mf-play {
+  &:before {
+    content: $mf-play;     
+    color: #3a4358;
+  }
+}
+.mf-music-voice {
+  &:before {
+    content: $mf-music-voice;     
+    color: #3a4358;
+  }
+}
+.mf-ai-changer {
+  &:before {
+    content: $mf-ai-changer;     
+    color: #3a4358;
+  }
+}
+
