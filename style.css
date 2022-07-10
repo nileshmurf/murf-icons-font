@@ -1,18 +1,23 @@
 @font-face {
-  font-family: 'murf-icon-font';
-  src:  url('fonts/murf-icon-font.eot?2ngkm7');
-  src:  url('fonts/murf-icon-font.eot?2ngkm7#iefix') format('embedded-opentype'),
-    url('fonts/murf-icon-font.ttf?2ngkm7') format('truetype'),
-    url('fonts/murf-icon-font.woff?2ngkm7') format('woff'),
-    url('fonts/murf-icon-font.svg?2ngkm7#murf-icon-font') format('svg');
+  font-family: "murf-icon-font";
+  src: url("fonts/murf-icon-font.eot?2ngkm7");
+  src: url("fonts/murf-icon-font.eot?2ngkm7#iefix") format("embedded-opentype"),
+    url("fonts/murf-icon-font.ttf?2ngkm7") format("truetype"),
+    url("fonts/murf-icon-font.woff?2ngkm7") format("woff"),
+    url("fonts/murf-icon-font.svg?2ngkm7#murf-icon-font") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="mf-"], [class*=" mf-"] {
+/*  
+  Using prefix .mfi instead of .mf to avoid conflicts with other v1/v2 classes
+*/
+
+[class^="mfi-"],
+[class*=" mfi-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'murf-icon-font' !important;
+  font-family: "murf-icon-font" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -25,23 +30,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.mf-pronunciation:before {
+.mfi-pronunciation:before {
   content: "\e903";
   color: #3a4358;
 }
-.mf-render:before {
+.mfi-render:before {
   content: "\e900";
   color: #3a4358;
 }
-.mf-play:before {
+.mfi-play:before {
   content: "\e901";
   color: #3a4358;
 }
-.mf-music-voice:before {
+.mfi-music-voice:before {
   content: "\e902";
   color: #3a4358;
 }
-.mf-ai-changer:before {
+.mfi-ai-changer:before {
   content: "\e904";
   color: #3a4358;
 }
