@@ -57,4 +57,10 @@
     color: #3a4358;
   }
 }
+.mf-training {
+  &:before {
+    content: $mf-ai-changer;     
+    color: #3a4358;
+  }
+}
 

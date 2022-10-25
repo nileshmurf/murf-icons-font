@@ -50,3 +50,7 @@
   content: "\e904";
   color: #3a4358;
 }
+.mfi-training:before {
+  content: "\e905";
+  color: #3a4358;
+}
