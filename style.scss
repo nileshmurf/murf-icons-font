@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2ngkm7');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2ngkm7#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?2ngkm7') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?2ngkm7') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?2ngkm7##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kp4wgs');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kp4wgs#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?kp4wgs') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?kp4wgs') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?kp4wgs##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,60 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mf-presentation {
+  &:before {
+    content: $mf-presentation;     
+    color: #3a4358;
+  }
+}
+.mf-notification {
+  &:before {
+    content: $mf-notification;     
+    color: #3a4358;
+  }
+}
+.mf-folder-locked-closed {
+  &:before {
+    content: $mf-folder-locked-closed;     
+    color: #3a4358;
+  }
+}
+.mf-folder-add {
+  &:before {
+    content: $mf-folder-add;     
+    color: #3a4358;
+  }
+}
+.mf-folder-locked-open {
+  &:before {
+    content: $mf-folder-locked-open;     
+    color: #3a4358;
+  }
+}
+.mf-folder-open {
+  &:before {
+    content: $mf-folder-open;     
+    color: #3a4358;
+  }
+}
+.mf-folder-closed {
+  &:before {
+    content: $mf-folder-closed;     
+    color: #3a4358;
+  }
+}
+.mf-verified-check {
+  &:before {
+    content: $mf-verified-check;     
+    color: #3a4358;
+  }
+}
+.mf-delink {
+  &:before {
+    content: $mf-delink;     
+    color: #3a4358;
+  }
+}
 .mf-pronunciation {
   &:before {
     content: $mf-pronunciation;     
