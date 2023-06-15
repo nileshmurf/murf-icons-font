@@ -2,17 +2,17 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kp4wgs');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kp4wgs#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?kp4wgs') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?kp4wgs') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?kp4wgs##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uc808g');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uc808g#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?uc808g') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?uc808g') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?uc808g##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="mf-"], [class*=" mf-"] {
+[class^="mfi-"], [class*=" mfi-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
   speak: never;
@@ -27,87 +27,105 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.mf-presentation {
+.mfi-presentation {
   &:before {
-    content: $mf-presentation;     
+    content: $mfi-presentation;     
     color: #3a4358;
   }
 }
-.mf-notification {
+.mfi-notification {
   &:before {
-    content: $mf-notification;     
+    content: $mfi-notification;     
     color: #3a4358;
   }
 }
-.mf-folder-locked-closed {
+.mfi-folder-locked-closed {
   &:before {
-    content: $mf-folder-locked-closed;     
+    content: $mfi-folder-locked-closed;     
     color: #3a4358;
   }
 }
-.mf-folder-add {
+.mfi-folder-add {
   &:before {
-    content: $mf-folder-add;     
+    content: $mfi-folder-add;     
     color: #3a4358;
   }
 }
-.mf-folder-locked-open {
+.mfi-folder-locked-open {
   &:before {
-    content: $mf-folder-locked-open;     
+    content: $mfi-folder-locked-open;     
     color: #3a4358;
   }
 }
-.mf-folder-open {
+.mfi-folder-open {
   &:before {
-    content: $mf-folder-open;     
+    content: $mfi-folder-open;     
     color: #3a4358;
   }
 }
-.mf-folder-closed {
+.mfi-folder-closed {
   &:before {
-    content: $mf-folder-closed;     
+    content: $mfi-folder-closed;     
     color: #3a4358;
   }
 }
-.mf-verified-check {
+.mfi-verified-check {
   &:before {
-    content: $mf-verified-check;     
+    content: $mfi-verified-check;     
     color: #3a4358;
   }
 }
-.mf-delink {
+.mfi-delink {
   &:before {
-    content: $mf-delink;     
+    content: $mfi-delink;     
     color: #3a4358;
   }
 }
-.mf-pronunciation {
+.mfi-pronunciation {
   &:before {
-    content: $mf-pronunciation;     
+    content: $mfi-pronunciation;     
     color: #3a4358;
   }
 }
-.mf-render {
+.mfi-render {
   &:before {
-    content: $mf-render;     
+    content: $mfi-render;     
     color: #3a4358;
   }
 }
-.mf-play {
+.mfi-play {
   &:before {
-    content: $mf-play;     
+    content: $mfi-play;     
     color: #3a4358;
   }
 }
-.mf-music-voice {
+.mfi-music-voice {
   &:before {
-    content: $mf-music-voice;     
+    content: $mfi-music-voice;     
     color: #3a4358;
   }
 }
-.mf-ai-changer {
+.mfi-ai-changer {
   &:before {
-    content: $mf-ai-changer;     
+    content: $mfi-ai-changer;     
+    color: #3a4358;
+  }
+}
+.mfi-rocket_circle {
+  &:before {
+    content: $mfi-rocket_circle;     
+    color: #3a4358;
+  }
+}
+.mfi-resize {
+  &:before {
+    content: $mfi-resize;     
+    color: #3a4358;
+  }
+}
+.mfi-rocket_circle1 {
+  &:before {
+    content: $mfi-rocket_circle1;     
     color: #3a4358;
   }
 }
