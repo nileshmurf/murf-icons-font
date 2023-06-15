@@ -2,17 +2,17 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2ngkm7');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2ngkm7#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?2ngkm7') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?2ngkm7') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?2ngkm7##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uc808g');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uc808g#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?uc808g') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?uc808g') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?uc808g##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="mf-"], [class*=" mf-"] {
+[class^="mfi-"], [class*=" mfi-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
   speak: never;
@@ -27,33 +27,105 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.mf-pronunciation {
+.mfi-presentation {
   &:before {
-    content: $mf-pronunciation;     
+    content: $mfi-presentation;     
     color: #3a4358;
   }
 }
-.mf-render {
+.mfi-notification {
   &:before {
-    content: $mf-render;     
+    content: $mfi-notification;     
     color: #3a4358;
   }
 }
-.mf-play {
+.mfi-folder-locked-closed {
   &:before {
-    content: $mf-play;     
+    content: $mfi-folder-locked-closed;     
     color: #3a4358;
   }
 }
-.mf-music-voice {
+.mfi-folder-add {
   &:before {
-    content: $mf-music-voice;     
+    content: $mfi-folder-add;     
     color: #3a4358;
   }
 }
-.mf-ai-changer {
+.mfi-folder-locked-open {
   &:before {
-    content: $mf-ai-changer;     
+    content: $mfi-folder-locked-open;     
+    color: #3a4358;
+  }
+}
+.mfi-folder-open {
+  &:before {
+    content: $mfi-folder-open;     
+    color: #3a4358;
+  }
+}
+.mfi-folder-closed {
+  &:before {
+    content: $mfi-folder-closed;     
+    color: #3a4358;
+  }
+}
+.mfi-verified-check {
+  &:before {
+    content: $mfi-verified-check;     
+    color: #3a4358;
+  }
+}
+.mfi-delink {
+  &:before {
+    content: $mfi-delink;     
+    color: #3a4358;
+  }
+}
+.mfi-pronunciation {
+  &:before {
+    content: $mfi-pronunciation;     
+    color: #3a4358;
+  }
+}
+.mfi-render {
+  &:before {
+    content: $mfi-render;     
+    color: #3a4358;
+  }
+}
+.mfi-play {
+  &:before {
+    content: $mfi-play;     
+    color: #3a4358;
+  }
+}
+.mfi-music-voice {
+  &:before {
+    content: $mfi-music-voice;     
+    color: #3a4358;
+  }
+}
+.mfi-ai-changer {
+  &:before {
+    content: $mfi-ai-changer;     
+    color: #3a4358;
+  }
+}
+.mfi-rocket_circle {
+  &:before {
+    content: $mfi-rocket_circle;     
+    color: #3a4358;
+  }
+}
+.mfi-resize {
+  &:before {
+    content: $mfi-resize;     
+    color: #3a4358;
+  }
+}
+.mfi-rocket_circle1 {
+  &:before {
+    content: $mfi-rocket_circle1;     
     color: #3a4358;
   }
 }
