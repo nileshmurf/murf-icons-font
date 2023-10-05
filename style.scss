@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uc808g');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uc808g#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?uc808g') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?uc808g') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?uc808g##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?u9y26k');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?u9y26k#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?u9y26k') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?u9y26k') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?u9y26k##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,9 +27,33 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.mfi-presentation {
+.mfi-render-play {
   &:before {
-    content: $mfi-presentation;     
+    content: $mfi-render-play;     
+    color: #3a4358;
+  }
+}
+.mfi-play {
+  &:before {
+    content: $mfi-play;     
+    color: #3a4358;
+  }
+}
+.mfi-pronunciation {
+  &:before {
+    content: $mfi-pronunciation;     
+    color: #3a4358;
+  }
+}
+.mfi-ai-changer {
+  &:before {
+    content: $mfi-ai-changer;     
+    color: #3a4358;
+  }
+}
+.mfi-training {
+  &:before {
+    content: $mfi-training;     
     color: #3a4358;
   }
 }
@@ -51,15 +75,15 @@
     color: #3a4358;
   }
 }
-.mfi-folder-locked-open {
+.mfi-folder-locked-opened {
   &:before {
-    content: $mfi-folder-locked-open;     
+    content: $mfi-folder-locked-opened;     
     color: #3a4358;
   }
 }
-.mfi-folder-open {
+.mfi-folder-opened {
   &:before {
-    content: $mfi-folder-open;     
+    content: $mfi-folder-opened;     
     color: #3a4358;
   }
 }
@@ -69,33 +93,75 @@
     color: #3a4358;
   }
 }
-.mfi-verified-check {
+.mfi-upgrade-2 {
   &:before {
-    content: $mfi-verified-check;     
+    content: $mfi-upgrade-2;     
     color: #3a4358;
   }
 }
-.mfi-delink {
+.mfi-unlinked {
   &:before {
-    content: $mfi-delink;     
+    content: $mfi-unlinked;     
     color: #3a4358;
   }
 }
-.mfi-pronunciation {
+.mfi-resize-horizontal {
   &:before {
-    content: $mfi-pronunciation;     
+    content: $mfi-resize-horizontal;     
     color: #3a4358;
   }
 }
-.mfi-render {
+.mfi-emphasis {
   &:before {
-    content: $mfi-render;     
+    content: $mfi-emphasis;     
     color: #3a4358;
   }
 }
-.mfi-play {
+.mfi-slow {
   &:before {
-    content: $mfi-play;     
+    content: $mfi-slow;     
+    color: #3a4358;
+  }
+}
+.mfi-fast {
+  &:before {
+    content: $mfi-fast;     
+    color: #3a4358;
+  }
+}
+.mfi-low-pitch {
+  &:before {
+    content: $mfi-low-pitch;     
+    color: #3a4358;
+  }
+}
+.mfi-high-pitch {
+  &:before {
+    content: $mfi-high-pitch;     
+    color: #3a4358;
+  }
+}
+.mfi-low-pitch-2 {
+  &:before {
+    content: $mfi-low-pitch-2;     
+    color: #3a4358;
+  }
+}
+.mfi-high-pitch-2 {
+  &:before {
+    content: $mfi-high-pitch-2;     
+    color: #3a4358;
+  }
+}
+.mfi-icon-backup-reset {
+  &:before {
+    content: $mfi-icon-backup-reset;     
+    color: #3a4358;
+  }
+}
+.mfi-icon-reset {
+  &:before {
+    content: $mfi-icon-reset;     
     color: #3a4358;
   }
 }
@@ -105,27 +171,26 @@
     color: #3a4358;
   }
 }
-.mfi-ai-changer {
+.mfi-no-music {
   &:before {
-    content: $mfi-ai-changer;     
+    content: $mfi-no-music; 
+  }
+}
+.mfi-trim {
+  &:before {
+    content: $mfi-trim;     
     color: #3a4358;
   }
 }
-.mfi-rocket_circle {
+.mfi-select-frames {
   &:before {
-    content: $mfi-rocket_circle;     
+    content: $mfi-select-frames;     
     color: #3a4358;
   }
 }
-.mfi-resize {
+.mfi-workspace {
   &:before {
-    content: $mfi-resize;     
-    color: #3a4358;
-  }
-}
-.mfi-rocket_circle1 {
-  &:before {
-    content: $mfi-rocket_circle1;     
+    content: $mfi-workspace;     
     color: #3a4358;
   }
 }
