@@ -13,6 +13,7 @@
 		el.innerHTML = '<span style="font-family: \'murf-icon-font\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'mfi-upgrade': '&#xe91c;',
 		'mfi-render-play': '&#xe900;',
 		'mfi-play': '&#xe901;',
 		'mfi-pronunciation': '&#xe902;',
