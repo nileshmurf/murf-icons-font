@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?z3eo3a');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?z3eo3a#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?z3eo3a') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?z3eo3a') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?z3eo3a##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?u5u7lv');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?u5u7lv#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?u5u7lv') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?u5u7lv') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?u5u7lv##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,176 +27,194 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mfi-plan-enterprise {
+  &:before {
+    content: unquote("\"#{ $mfi-plan-enterprise }\"");     
+    color: #5d677e;
+  }
+}
+.mfi-plan-business {
+  &:before {
+    content: unquote("\"#{ $mfi-plan-business }\"");     
+    color: #5d677e;
+  }
+}
+.mfi-plan-creator {
+  &:before {
+    content: unquote("\"#{ $mfi-plan-creator }\"");     
+    color: #5d677e;
+  }
+}
 .mfi-upgrade {
   &:before {
-    content: $mfi-upgrade;     
+    content: unquote("\"#{ $mfi-upgrade }\"");     
     color: #3a4358;
   }
 }
 .mfi-render-play {
   &:before {
-    content: $mfi-render-play;     
+    content: unquote("\"#{ $mfi-render-play }\"");     
     color: #3a4358;
   }
 }
 .mfi-play {
   &:before {
-    content: $mfi-play;     
+    content: unquote("\"#{ $mfi-play }\"");     
     color: #3a4358;
   }
 }
 .mfi-pronunciation {
   &:before {
-    content: $mfi-pronunciation;     
+    content: unquote("\"#{ $mfi-pronunciation }\"");     
     color: #3a4358;
   }
 }
 .mfi-ai-changer {
   &:before {
-    content: $mfi-ai-changer;     
+    content: unquote("\"#{ $mfi-ai-changer }\"");     
     color: #3a4358;
   }
 }
 .mfi-training {
   &:before {
-    content: $mfi-training;     
+    content: unquote("\"#{ $mfi-training }\"");     
     color: #3a4358;
   }
 }
 .mfi-notification {
   &:before {
-    content: $mfi-notification;     
+    content: unquote("\"#{ $mfi-notification }\"");     
     color: #3a4358;
   }
 }
 .mfi-folder-locked-closed {
   &:before {
-    content: $mfi-folder-locked-closed;     
+    content: unquote("\"#{ $mfi-folder-locked-closed }\"");     
     color: #3a4358;
   }
 }
 .mfi-folder-add {
   &:before {
-    content: $mfi-folder-add;     
+    content: unquote("\"#{ $mfi-folder-add }\"");     
     color: #3a4358;
   }
 }
 .mfi-folder-locked-opened {
   &:before {
-    content: $mfi-folder-locked-opened;     
+    content: unquote("\"#{ $mfi-folder-locked-opened }\"");     
     color: #3a4358;
   }
 }
 .mfi-folder-opened {
   &:before {
-    content: $mfi-folder-opened;     
+    content: unquote("\"#{ $mfi-folder-opened }\"");     
     color: #3a4358;
   }
 }
 .mfi-folder-closed {
   &:before {
-    content: $mfi-folder-closed;     
+    content: unquote("\"#{ $mfi-folder-closed }\"");     
     color: #3a4358;
   }
 }
 .mfi-upgrade-2 {
   &:before {
-    content: $mfi-upgrade-2;     
+    content: unquote("\"#{ $mfi-upgrade-2 }\"");     
     color: #3a4358;
   }
 }
 .mfi-unlinked {
   &:before {
-    content: $mfi-unlinked;     
+    content: unquote("\"#{ $mfi-unlinked }\"");     
     color: #3a4358;
   }
 }
 .mfi-resize-horizontal {
   &:before {
-    content: $mfi-resize-horizontal;     
+    content: unquote("\"#{ $mfi-resize-horizontal }\"");     
     color: #3a4358;
   }
 }
 .mfi-emphasis {
   &:before {
-    content: $mfi-emphasis;     
+    content: unquote("\"#{ $mfi-emphasis }\"");     
     color: #3a4358;
   }
 }
 .mfi-slow {
   &:before {
-    content: $mfi-slow;     
+    content: unquote("\"#{ $mfi-slow }\"");     
     color: #3a4358;
   }
 }
 .mfi-fast {
   &:before {
-    content: $mfi-fast;     
+    content: unquote("\"#{ $mfi-fast }\"");     
     color: #3a4358;
   }
 }
 .mfi-low-pitch {
   &:before {
-    content: $mfi-low-pitch;     
+    content: unquote("\"#{ $mfi-low-pitch }\"");     
     color: #3a4358;
   }
 }
 .mfi-high-pitch {
   &:before {
-    content: $mfi-high-pitch;     
+    content: unquote("\"#{ $mfi-high-pitch }\"");     
     color: #3a4358;
   }
 }
 .mfi-low-pitch-2 {
   &:before {
-    content: $mfi-low-pitch-2;     
+    content: unquote("\"#{ $mfi-low-pitch-2 }\"");     
     color: #3a4358;
   }
 }
 .mfi-high-pitch-2 {
   &:before {
-    content: $mfi-high-pitch-2;     
+    content: unquote("\"#{ $mfi-high-pitch-2 }\"");     
     color: #3a4358;
   }
 }
 .mfi-icon-backup-reset {
   &:before {
-    content: $mfi-icon-backup-reset;     
+    content: unquote("\"#{ $mfi-icon-backup-reset }\"");     
     color: #3a4358;
   }
 }
 .mfi-icon-reset {
   &:before {
-    content: $mfi-icon-reset;     
+    content: unquote("\"#{ $mfi-icon-reset }\"");     
     color: #3a4358;
   }
 }
 .mfi-music-voice {
   &:before {
-    content: $mfi-music-voice;     
+    content: unquote("\"#{ $mfi-music-voice }\"");     
     color: #3a4358;
   }
 }
 .mfi-no-music {
   &:before {
-    content: $mfi-no-music; 
+    content: unquote("\"#{ $mfi-no-music }\""); 
   }
 }
 .mfi-trim {
   &:before {
-    content: $mfi-trim;     
+    content: unquote("\"#{ $mfi-trim }\"");     
     color: #3a4358;
   }
 }
 .mfi-select-frames {
   &:before {
-    content: $mfi-select-frames;     
+    content: unquote("\"#{ $mfi-select-frames }\"");     
     color: #3a4358;
   }
 }
 .mfi-workspace {
   &:before {
-    content: $mfi-workspace;     
+    content: unquote("\"#{ $mfi-workspace }\"");     
     color: #3a4358;
   }
 }

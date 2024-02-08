@@ -13,6 +13,9 @@
 		el.innerHTML = '<span style="font-family: \'murf-icon-font\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'mfi-plan-enterprise': '&#xe91d;',
+		'mfi-plan-business': '&#xe91e;',
+		'mfi-plan-creator': '&#xe91f;',
 		'mfi-upgrade': '&#xe91c;',
 		'mfi-render-play': '&#xe900;',
 		'mfi-play': '&#xe901;',
