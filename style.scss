@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?u5u7lv');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?u5u7lv#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?u5u7lv') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?u5u7lv') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?u5u7lv##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?poa2xm');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?poa2xm#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?poa2xm') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?poa2xm') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?poa2xm##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,194 +27,200 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mfi-intonation {
+  &:before {
+    content: $mfi-intonation;     
+    color: #3a4358;
+  }
+}
 .mfi-plan-enterprise {
   &:before {
-    content: unquote("\"#{ $mfi-plan-enterprise }\"");     
+    content: $mfi-plan-enterprise;     
     color: #5d677e;
   }
 }
 .mfi-plan-business {
   &:before {
-    content: unquote("\"#{ $mfi-plan-business }\"");     
+    content: $mfi-plan-business;     
     color: #5d677e;
   }
 }
 .mfi-plan-creator {
   &:before {
-    content: unquote("\"#{ $mfi-plan-creator }\"");     
+    content: $mfi-plan-creator;     
     color: #5d677e;
   }
 }
 .mfi-upgrade {
   &:before {
-    content: unquote("\"#{ $mfi-upgrade }\"");     
+    content: $mfi-upgrade;     
     color: #3a4358;
   }
 }
 .mfi-render-play {
   &:before {
-    content: unquote("\"#{ $mfi-render-play }\"");     
+    content: $mfi-render-play;     
     color: #3a4358;
   }
 }
 .mfi-play {
   &:before {
-    content: unquote("\"#{ $mfi-play }\"");     
+    content: $mfi-play;     
     color: #3a4358;
   }
 }
 .mfi-pronunciation {
   &:before {
-    content: unquote("\"#{ $mfi-pronunciation }\"");     
+    content: $mfi-pronunciation;     
     color: #3a4358;
   }
 }
 .mfi-ai-changer {
   &:before {
-    content: unquote("\"#{ $mfi-ai-changer }\"");     
+    content: $mfi-ai-changer;     
     color: #3a4358;
   }
 }
 .mfi-training {
   &:before {
-    content: unquote("\"#{ $mfi-training }\"");     
+    content: $mfi-training;     
     color: #3a4358;
   }
 }
 .mfi-notification {
   &:before {
-    content: unquote("\"#{ $mfi-notification }\"");     
+    content: $mfi-notification;     
     color: #3a4358;
   }
 }
 .mfi-folder-locked-closed {
   &:before {
-    content: unquote("\"#{ $mfi-folder-locked-closed }\"");     
+    content: $mfi-folder-locked-closed;     
     color: #3a4358;
   }
 }
 .mfi-folder-add {
   &:before {
-    content: unquote("\"#{ $mfi-folder-add }\"");     
+    content: $mfi-folder-add;     
     color: #3a4358;
   }
 }
 .mfi-folder-locked-opened {
   &:before {
-    content: unquote("\"#{ $mfi-folder-locked-opened }\"");     
+    content: $mfi-folder-locked-opened;     
     color: #3a4358;
   }
 }
 .mfi-folder-opened {
   &:before {
-    content: unquote("\"#{ $mfi-folder-opened }\"");     
+    content: $mfi-folder-opened;     
     color: #3a4358;
   }
 }
 .mfi-folder-closed {
   &:before {
-    content: unquote("\"#{ $mfi-folder-closed }\"");     
+    content: $mfi-folder-closed;     
     color: #3a4358;
   }
 }
 .mfi-upgrade-2 {
   &:before {
-    content: unquote("\"#{ $mfi-upgrade-2 }\"");     
+    content: $mfi-upgrade-2;     
     color: #3a4358;
   }
 }
 .mfi-unlinked {
   &:before {
-    content: unquote("\"#{ $mfi-unlinked }\"");     
+    content: $mfi-unlinked;     
     color: #3a4358;
   }
 }
 .mfi-resize-horizontal {
   &:before {
-    content: unquote("\"#{ $mfi-resize-horizontal }\"");     
+    content: $mfi-resize-horizontal;     
     color: #3a4358;
   }
 }
 .mfi-emphasis {
   &:before {
-    content: unquote("\"#{ $mfi-emphasis }\"");     
+    content: $mfi-emphasis;     
     color: #3a4358;
   }
 }
 .mfi-slow {
   &:before {
-    content: unquote("\"#{ $mfi-slow }\"");     
+    content: $mfi-slow;     
     color: #3a4358;
   }
 }
 .mfi-fast {
   &:before {
-    content: unquote("\"#{ $mfi-fast }\"");     
+    content: $mfi-fast;     
     color: #3a4358;
   }
 }
 .mfi-low-pitch {
   &:before {
-    content: unquote("\"#{ $mfi-low-pitch }\"");     
+    content: $mfi-low-pitch;     
     color: #3a4358;
   }
 }
 .mfi-high-pitch {
   &:before {
-    content: unquote("\"#{ $mfi-high-pitch }\"");     
+    content: $mfi-high-pitch;     
     color: #3a4358;
   }
 }
 .mfi-low-pitch-2 {
   &:before {
-    content: unquote("\"#{ $mfi-low-pitch-2 }\"");     
+    content: $mfi-low-pitch-2;     
     color: #3a4358;
   }
 }
 .mfi-high-pitch-2 {
   &:before {
-    content: unquote("\"#{ $mfi-high-pitch-2 }\"");     
+    content: $mfi-high-pitch-2;     
     color: #3a4358;
   }
 }
 .mfi-icon-backup-reset {
   &:before {
-    content: unquote("\"#{ $mfi-icon-backup-reset }\"");     
+    content: $mfi-icon-backup-reset;     
     color: #3a4358;
   }
 }
 .mfi-icon-reset {
   &:before {
-    content: unquote("\"#{ $mfi-icon-reset }\"");     
+    content: $mfi-icon-reset;     
     color: #3a4358;
   }
 }
 .mfi-music-voice {
   &:before {
-    content: unquote("\"#{ $mfi-music-voice }\"");     
+    content: $mfi-music-voice;     
     color: #3a4358;
   }
 }
 .mfi-no-music {
   &:before {
-    content: unquote("\"#{ $mfi-no-music }\""); 
+    content: $mfi-no-music; 
   }
 }
 .mfi-trim {
   &:before {
-    content: unquote("\"#{ $mfi-trim }\"");     
+    content: $mfi-trim;     
     color: #3a4358;
   }
 }
 .mfi-select-frames {
   &:before {
-    content: unquote("\"#{ $mfi-select-frames }\"");     
+    content: $mfi-select-frames;     
     color: #3a4358;
   }
 }
 .mfi-workspace {
   &:before {
-    content: unquote("\"#{ $mfi-workspace }\"");     
+    content: $mfi-workspace;     
     color: #3a4358;
   }
 }
